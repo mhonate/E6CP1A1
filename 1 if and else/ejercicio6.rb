@@ -6,10 +6,9 @@ b = 'falso'
 
 if a == 'verdadero'
     puts ':)'
-else
-  if b == 'verdadero'
+elsif b == 'verdadero'
     puts ':|'
   else
     puts ':('
   end
-end
+

@@ -11,3 +11,11 @@
 </table>
 
 =end
+
+td = ''
+
+3.times do |i|
+	i += 1
+	td += "<table>\n\t<tbody>\n\t\t<tr>\n#{td}\t\</tbody>\n</table>\n"
+
+
